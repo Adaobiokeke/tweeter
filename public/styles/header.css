@@ -1,0 +1,40 @@
+.header-div {
+  width: 40%;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.header {
+  padding: 100px;
+  height: 500px;
+  background-color: #a87e00;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+  z-index: -1;
+}
+
+.name-div {
+  white-space: nowrap;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1120px) {
+  .header-div {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .header {
+    padding: 130px 45%;
+  }
+}
+@media only screen and (max-width: 760) {
+  .header {
+    padding: 120px 24%;
+  }
+}
+@media only screen and (max-width: 320) {
+  .header {
+    padding: 150px 34%;
+  }
+}

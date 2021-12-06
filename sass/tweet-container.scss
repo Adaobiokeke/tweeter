@@ -1,0 +1,25 @@
+#tweet-container{
+    border:2px solid black;
+    height:250px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.img-email-div{
+    display:flex;
+    justify-content:space-between;
+}
+.img-div{
+    align-items:center;
+    height:100px
+}
+.name{
+    font-family: 'Source Sans Pro', sans-serif;
+    position:relative;
+    bottom:15px
+}
+.avartar{
+    background-color: transparent;
+    height:50%;
+    width:50%;
+}

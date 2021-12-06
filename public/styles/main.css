@@ -1,0 +1,29 @@
+.main-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  margin-top: 150px;
+  width: 55%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: inherit;
+}
+
+.count {
+  font-family: "Bungee";
+}
+
+@media only screen and (max-width: 1120px) {
+  .main-body {
+    display: block;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+}

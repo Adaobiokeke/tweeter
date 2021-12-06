@@ -1,0 +1,44 @@
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    background-color:#4056A3;
+    color:#ffff;
+    padding: 1.5em;
+    position:fixed;
+    top: 0;
+    height: 120px;
+  }
+
+  span{
+    font-family: Bungee;
+  }
+  p{
+      margin:0
+  }
+  .new-tweets{
+      width:13%;
+
+  }
+  .fas{
+      color:red;
+      margin-left:80px;
+      cursor: pointer;
+  }
+ 
+  @media only screen and (max-width: 850px) {
+    .nav-bar{
+      background-color: #a87e00;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    }
+    .new-tweets{
+      width:30%;
+
+  }
+      }
+      @media only screen and (max-width: 650px) {
+        .new-tweets{
+          width:50%;
+    
+      }
+      }
