@@ -10,7 +10,10 @@
   outline: none;
   border-bottom: 2px solid black;
   margin-bottom: 10px;
+  padding-bottom: 80px;
   background-color: transparent;
+  word-wrap: break-word;
+}
 }
 
 .button-div {
