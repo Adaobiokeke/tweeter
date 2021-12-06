@@ -16,3 +16,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+// Screenshots
+![screenshot of  tweeter dialog box](https://github.com/Adaobiokeke/tweeter/blob/master/docs/tweeter-dialog-box.png?raw=true)
